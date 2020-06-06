@@ -9,6 +9,7 @@ import { UserLogService } from '../user-log.service';
 })
 export class DashboardComponent implements OnInit {
 value:any;
+show:boolean= false;
   constructor(private user:UserLogService) { }
 
   ngOnInit(){
